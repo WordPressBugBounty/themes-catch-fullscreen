@@ -1,8 +1,8 @@
 === Catch Fullscreen ===
 Contributors: catchthemes
 Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-header, custom-menu, custom-logo, editor-style, featured-image-header, featured-images, footer-widgets, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, blog, entertainment, photography
-Requires at least: 5.6
-Tested up to: 6.5
+Requires at least: 5.9
+Tested up to: 6.8
 Requires PHP: 5.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -41,6 +41,11 @@ You can check our Theme Demo at https://catchthemes.com/demo/catch-fullscreen/
 For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Changelog ==
+
+= 2.4 (Released: June 11, 2025) =
+* Added: Twitter X, Threads, Tiktok, Bluesky, Discord, Feed, Email, Phone and Line icons
+* Bug Fixed: Social widget icons issue
+* Updated: WordPress 6.8 ready
 
 = 2.3.6 (Released: June 12, 2024) =
 * Removed: Depreciated Instagram Feed Plugin recommendation
@@ -199,7 +204,7 @@ For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Copyright ==
 
-Catch Fullscreen WordPress Theme, Copyright 2012-2023 Catchthemes.com
+Catch Fullscreen WordPress Theme, Copyright 2012-2025 Catchthemes.com
 Catch Fullscreen is distributed under the terms of the GNU GPL
 
 == Resources ==

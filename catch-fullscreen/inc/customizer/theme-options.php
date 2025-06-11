@@ -257,7 +257,7 @@ function catch_fullscreen_theme_options( $wp_customize ) {
 			'name'              => 'catch_fullscreen_fullpage_scrollbar_note',
 			'sanitize_callback' => 'sanitize_text_field',
 			'custom_control'    => 'Catch_Fullscreen_Note_Control',
-			'label'             => esc_html__( 'Scroll Bar Options', 'catch-fullscreen-pro' ),
+			'label'             => esc_html__( 'Scroll Bar Options', 'catch-fullscreen' ),
 			'section'           => 'catch_fullscreen_fullpage',
 			'type'              => 'description',
 		)
@@ -266,7 +266,7 @@ function catch_fullscreen_theme_options( $wp_customize ) {
 	catch_fullscreen_register_option( $wp_customize, array(
 			'name'              => 'catch_fullscreen_scrollbar_enable',
 			'sanitize_callback' => 'catch_fullscreen_sanitize_checkbox',
-			'label'             => esc_html__( 'Check to enable Scroll bar', 'catch-fullscreen-pro' ),
+			'label'             => esc_html__( 'Check to enable Scroll bar', 'catch-fullscreen' ),
 			'section'           => 'catch_fullscreen_fullpage',
 			'type'              => 'checkbox',
 			'description'		=> esc_html__( 'Enabling the scrolling feature will automatically disable the parallax effect on iOS devices.', 'catch-fullscreen' ),
@@ -276,7 +276,7 @@ function catch_fullscreen_theme_options( $wp_customize ) {
 	catch_fullscreen_register_option( $wp_customize, array(
 			'name'              => 'catch_fullscreen_normal_scrolling_enable',
 			'sanitize_callback' => 'catch_fullscreen_sanitize_checkbox',
-			'label'             => esc_html__( 'Check to enable Normal Scrolling', 'catch-fullscreen-pro' ),
+			'label'             => esc_html__( 'Check to enable Normal Scrolling', 'catch-fullscreen' ),
 			'section'           => 'catch_fullscreen_fullpage',
 			'type'              => 'checkbox',
 			'description'		=> esc_html__( 'Checkmark both options in order to enable scrolling on iOS devices.', 'catch-fullscreen' ),

@@ -126,7 +126,7 @@ function catch_fullscreen_nav_menu_social_icons( $item_output, $item, $depth, $a
 	$social_icons = catch_fullscreen_social_links_icons();
 
 	// Change SVG icon inside social links menu if there is supported URL.
-	if ( 'social-primary' === $args->theme_location ) {
+	if ( 'social-primary' === $args->theme_location || 'social-links-menu' === $args->menu_class ) {
 		foreach ( $social_icons as $attr => $value ) {
 			if ( false !== strpos( $item_output, $attr ) ) {
 				$item_output = str_replace( $args->link_after, '</span>' . catch_fullscreen_get_svg( array( 'icon' => esc_attr( $value ) ) ), $item_output );
@@ -196,6 +196,7 @@ function catch_fullscreen_social_links_icons() {
 		'tumblr.com'      => 'tumblr',
 		'twitch.tv'       => 'twitch',
 		'twitter.com'     => 'twitter',
+		'x.com'			  => 'x-twitter',
 		'vimeo.com'       => 'vimeo',
 		'vine.co'         => 'vine',
 		'vk.com'          => 'vk',
@@ -203,6 +204,15 @@ function catch_fullscreen_social_links_icons() {
 		'wordpress.com'   => 'wordpress',
 		'yelp.com'        => 'yelp',
 		'youtube.com'     => 'youtube',
+		'fetlife.com'	  => 'fetlife',
+		'discord.com'	  => 'discord',
+		'discord.gg'	  => 'discord',
+		'tiktok.com'	  => 'tiktok',
+		'line.me'		  => 'line',
+		'tel:'         	  => 'phone',
+		'/feed'			  => 'rss',
+		'bsky.app'		  => 'bluesky',
+		'threads.com'	  => 'threads',
 	);
 
 	/**
