@@ -2,7 +2,7 @@
 Contributors: catchthemes
 Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-header, custom-menu, custom-logo, editor-style, featured-image-header, featured-images, footer-widgets, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, blog, entertainment, photography
 Requires at least: 5.9
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 5.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -41,6 +41,11 @@ You can check our Theme Demo at https://catchthemes.com/demo/catch-fullscreen/
 For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Changelog ==
+
+= 2.4.1 (Released: December 08, 2025) =
+* Bug Fixed: Deprecated Function WP_Dependencies-add_data() warning after WordPress update 6.9
+* Removed: back-compat.php file as it's no longer needed
+* Updated: WordPress 6.9 ready
 
 = 2.4 (Released: June 11, 2025) =
 * Added: Twitter X, Threads, Tiktok, Bluesky, Discord, Feed, Email, Phone and Line icons

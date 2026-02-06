@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Catch Fullscreen\n"
 "Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
-"POT-Creation-Date: 2025-06-11 17:57+0545\n"
+"POT-Creation-Date: 2025-12-08 21:55+0545\n"
 "PO-Revision-Date: 2016-12-07 01:05-0500\n"
 "Last-Translator: Catch Themes <info@catchthemes.com>\n"
 "Language-Team: Catch Themes <info@catchthemes.com>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n !== 1;\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.8\n"
 "X-Poedit-KeywordsList: "
 "__;_e;_x;esc_html_e;esc_html__;esc_attr_e;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -55,109 +55,109 @@ msgstr ""
 msgid "Comments are closed."
 msgstr ""
 
-#: ../functions.php:94
+#: ../functions.php:89
 msgid "Small"
 msgstr ""
 
-#: ../functions.php:95
+#: ../functions.php:90
 msgid "S"
 msgstr ""
 
-#: ../functions.php:100
+#: ../functions.php:95
 msgid "Normal"
 msgstr ""
 
-#: ../functions.php:101
+#: ../functions.php:96
 msgid "M"
 msgstr ""
 
-#: ../functions.php:106
+#: ../functions.php:101
 msgid "Large"
 msgstr ""
 
-#: ../functions.php:107
+#: ../functions.php:102
 msgid "L"
 msgstr ""
 
-#: ../functions.php:112
+#: ../functions.php:107
 msgid "Huge"
 msgstr ""
 
-#: ../functions.php:113
+#: ../functions.php:108
 msgid "XL"
 msgstr ""
 
-#: ../functions.php:123
+#: ../functions.php:118
 msgid "White"
 msgstr ""
 
-#: ../functions.php:128
+#: ../functions.php:123
 msgid "Black"
 msgstr ""
 
-#: ../functions.php:133
+#: ../functions.php:128
 msgid "Gray"
 msgstr ""
 
-#: ../functions.php:138
+#: ../functions.php:133
 msgid "Medium Gray"
 msgstr ""
 
-#: ../functions.php:143
+#: ../functions.php:138
 msgid "Yellow"
 msgstr ""
 
-#: ../functions.php:179 ../template-parts/navigation/navigation-primary.php:20
+#: ../functions.php:174 ../template-parts/navigation/navigation-primary.php:20
 #: ../template-parts/navigation/navigation-primary.php:28
 msgid "Primary Menu"
 msgstr ""
 
-#: ../functions.php:180
+#: ../functions.php:175
 msgid "Social on Primary Menu"
 msgstr ""
 
-#: ../functions.php:251
+#: ../functions.php:248
 msgid "Sidebar"
 msgstr ""
 
-#: ../functions.php:253
+#: ../functions.php:250
 msgid "Add widgets here to appear in your sidebar."
 msgstr ""
 
-#: ../functions.php:261
+#: ../functions.php:258
 msgid "Footer 1"
 msgstr ""
 
-#: ../functions.php:263 ../functions.php:273 ../functions.php:283
+#: ../functions.php:260 ../functions.php:270 ../functions.php:280
 msgid "Add widgets here to appear in your footer."
 msgstr ""
 
-#: ../functions.php:271
+#: ../functions.php:268
 msgid "Footer 2"
 msgstr ""
 
-#: ../functions.php:281
+#: ../functions.php:278
 msgid "Footer 3"
 msgstr ""
 
-#: ../functions.php:292
+#: ../functions.php:289
 msgid "Instagram"
 msgstr ""
 
-#: ../functions.php:294
+#: ../functions.php:291
 msgid "Appears above footer. This sidebar is only for Instagram Feed Gallery"
 msgstr ""
 
-#: ../functions.php:365
+#: ../functions.php:364
 msgctxt "Poppins: on or off"
 msgid "on"
 msgstr ""
 
-#: ../functions.php:447
+#: ../functions.php:444
 msgid "expand child menu"
 msgstr ""
 
-#: ../functions.php:448
+#: ../functions.php:445
 msgid "collapse child menu"
 msgstr ""
 
@@ -196,13 +196,6 @@ msgstr ""
 #: ../image.php:98 ../single.php:26
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
-msgstr ""
-
-#: ../inc/back-compat.php:40 ../inc/back-compat.php:53 ../inc/back-compat.php:71
-#, php-format
-msgid ""
-"Catch Full requires at least WordPress version 4.4. You are running version %s. Please upgrade and "
-"try again."
 msgstr ""
 
 #: ../inc/breadcrumb.php:13
