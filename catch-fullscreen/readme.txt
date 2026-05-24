@@ -2,7 +2,7 @@
 Contributors: catchthemes
 Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-header, custom-menu, custom-logo, editor-style, featured-image-header, featured-images, footer-widgets, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, blog, entertainment, photography
 Requires at least: 5.9
-Tested up to: 6.9
+Tested up to: 7.0
 Requires PHP: 5.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -41,6 +41,10 @@ You can check our Theme Demo at https://catchthemes.com/demo/catch-fullscreen/
 For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Changelog ==
+
+= 2.5 (Released: May 24, 2026) =
+* Bug Fixed: Testimonial Custom Post Type Archive Title and Content issue with Jetpack
+* Updated: WordPress 7.0 ready
 
 = 2.4.1 (Released: December 08, 2025) =
 * Bug Fixed: Deprecated Function WP_Dependencies-add_data() warning after WordPress update 6.9
@@ -209,7 +213,7 @@ For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Copyright ==
 
-Catch Fullscreen WordPress Theme, Copyright 2012-2025 Catchthemes.com
+Catch Fullscreen WordPress Theme, Copyright 2012-2026 Catchthemes.com
 Catch Fullscreen is distributed under the terms of the GNU GPL
 
 == Resources ==
